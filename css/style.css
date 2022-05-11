@@ -93,7 +93,7 @@ a{
   font-weight: normal;
 }
 .principal li{
-  display: inline-block;
+  display: flex;
   line-height: 2.5;
   margin:0 89px;
 }
