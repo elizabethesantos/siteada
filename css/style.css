@@ -1,29 +1,46 @@
+:root {
+
+  --violet-color:hsl(257, 45%, 62%);
+  --white-color:hsl(0, 0%, 100%);
+  --blue-color:hsl(262, 100%, 23%);
+  --green-title:hsl(157, 100%, 51%);
+  --red-title:hsl(0, 78%, 55%);
+  --yellow-title:hsl(48, 100%, 71%);
+  --blue-color:hsl(180, 100%, 80%);
+  --rose-color:hsl(330, 100%, 71%);
+  --green-button:hsl(120, 88%, 60%);
+  --rose-hover:hsl(300, 100%, 50%);
+
+  font-size:62.5%;
+}
+
 body{
+  font-size: 1.6rem;
   text-align: center;
   font-family: Open Sans,sans-serif;
-  background-color: #8a71c9;
-  color: #ffffff;
+  background-color: var(--violet-color);
+  color: var(--white-color);
   margin: 0px 0px 30px 0px;
 }
 
 h1{
-  font-size: 60px;
+  font-size: 6rem;
   font-weight: 300;
 }
 
 h2{
-  color:#2A0074;
-  font-size: 40px;
+  color: var(--blue-color);
+  font-size: 4rem;
 }
 
 h3{
-  font-size: 22px;
+  font-size: 2.2rem;
   font-style: italic;
 }
 
 p{
-  font-size: 20px;
-  line-height: 1.5;
+  font-size: 2rem;
+  line-height: 150%;
 }
 
 img{
@@ -31,15 +48,15 @@ img{
 }
 
 .titulo-verde{
-  color:#04ff9f;
+  color: var(--green-title)
 }
 
 .titulo-vermelho{
-  color:#ff9e9e;
+  color: var(--red-title)
 }
 
 .titulo-amarelo{
-  color:#ffe36d;
+  color: var(--yellow-title)
 }
 
 section{
@@ -59,19 +76,19 @@ ul{
 
 a{
   text-decoration:none;
-  color:#99ffff;
+  color: var(--blue-color);
   font-weight:700;
 }
 
 .principal{
-  background-color:#ff6cb5;
-  height: 40px;
+  background-color: var(--rose-color);
+  height: 4rem;
   max-width: 60%;
   margin:0 auto;
 }
 
 .principal a{
-  color:#fff;
+  color:var(--white-color);
   text-decoration:underline; 
   font-weight: normal;
 }
@@ -82,12 +99,12 @@ a{
 }
 
 button{
-  background-color: #41f341;#04ff9f;
+  background-color: var(--green-button);
   border:1px solid transparent;
   padding:2px 20px;
   border-radius:3px;
 }
 
 a:hover {
-  color: #FF00FF;
+  color: var(--rose-hover);
 }
