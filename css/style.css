@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --violet-color:hsl(257, 45%, 62%);
   --white-color:hsl(0, 0%, 100%);
@@ -19,7 +24,7 @@ body{
   font-family: 'Open Sans',sans-serif;
   background-color: var(--violet-color);
   color: var(--white-color);
-  margin: 0px 0px 30px 0px;
+  margin: 30px 0px ;
 }
 
 h1{
